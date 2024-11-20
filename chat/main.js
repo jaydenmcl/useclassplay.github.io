@@ -35,7 +35,7 @@
     
     // Function to check for profanity using Perspective API
     async function containsProfanity(message) {
-      const url = `https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=${perspectiveApiKey}`;
+      const url = ``;
       const data = {
         comment: { text: message },
         languages: ["en"],
